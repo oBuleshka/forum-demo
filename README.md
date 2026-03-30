@@ -71,9 +71,3 @@ The project includes a lightweight console client in `Forum.SignalRTester` for t
 - An in-memory event dispatcher was used to keep the project simple and focused on application behavior without introducing external infrastructure.
 - Layered architecture was chosen to keep domain rules, persistence, transport, and infrastructure concerns separated and easier to extend.
 - Authentication is intentionally straightforward with JWT and service-level authorization checks, which keeps the demo readable while still reflecting real backend patterns.
-
-## Optional Improvements
-
-- Replace the in-memory dispatcher with Redis or a message broker for distributed deployments
-- Add a frontend client for a full end-to-end user experience
-- Introduce more advanced authorization rules and permission handling
